@@ -99,6 +99,8 @@ These entities provide the information required to analyze workforce structure, 
 
 ### Company SD Relational Data Model
 
+![Company SD ERD](Assets/Company_SD_ERD.png)
+
 The project uses a relational data model based on primary and foreign key relationships between the Company SD entities.
 
 The data model connects employees, departments, projects, supervisors, employee-project assignments, department locations, and dependents.
@@ -187,6 +189,8 @@ The Power BI report consists of **two interactive dashboard pages**, each focuse
 
 ### 1. Workforce Analytics
 
+![Workforce Analytics Dashboard](Assets/1_Workforce_Analytics.png)
+
 Focuses on:
 
 - Employees
@@ -198,6 +202,8 @@ Focuses on:
 - Workforce structure
 
 ### 2. Projects Analytics
+
+![Projects Analytics Dashboard](Assets/2_Projects_Analytics.png)
 
 Focuses on:
 
@@ -739,7 +745,7 @@ By combining **SQL analysis**, **relational data modeling**, **DAX**, **Power Qu
 
 ---
 
-# 📂 Repository Structure
+## 📂 Repository Structure
 
 ```text
 Company-SD-SQL-Project/
