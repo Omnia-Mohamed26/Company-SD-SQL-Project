@@ -187,31 +187,10 @@ The Employee table also contains a self-referencing relationship through the sup
 
 The Power BI report consists of **two interactive dashboard pages**, each focused on a specific business area.
 
-### 1. Workforce Analytics
-
-![Workforce Analytics Dashboard](Assets/1_Workforce_Analytics.png)
-
-Focuses on:
-
-- Employees
-- Salaries
-- Departments
-- Gender
-- Managers
-- Supervisors
-- Workforce structure
-
-### 2. Projects Analytics
-
-![Projects Analytics Dashboard](Assets/2_Projects_Analytics.png)
-
-Focuses on:
-
-- Projects
-- Working Hours
-- Departments
-- Cities
-- Employee-project assignments
+| Dashboard Page | Focus |
+|----------------|-------|
+| **Workforce Analytics** | Employees, salaries, departments, gender, managers, supervisors, and workforce structure |
+| **Projects Analytics** | Projects, working hours, departments, cities, and employee-project assignments |
 
 Interactive navigation allows users to move between the **Workforce Analytics** and **Projects Analytics** pages.
 
@@ -220,6 +199,8 @@ Interactive navigation allows users to move between the **Workforce Analytics** 
 # 👥 Workforce Analytics
 
 The Workforce Analytics dashboard provides an overview of the company's employee structure and salary distribution.
+
+![Workforce Analytics](Assets/1_Workforce_Analytics.png)
 
 ### Dashboard Highlights
 
@@ -260,6 +241,8 @@ The dashboard includes:
 
 The Projects Analytics dashboard focuses on project activity, working hours, departmental involvement, and project locations.
 
+![Projects Analytics](Assets/2_Projects_Analytics.png)
+
 ### Dashboard Highlights
 
 - Total Projects
@@ -288,7 +271,6 @@ The dashboard includes:
 - **Projects by Department** — shows project distribution across departments.
 - **Projects by City** — shows project distribution across locations.
 - **Project Details Table** — provides project-level information including project name, department, city, and working hours.
-
 ---
 
 ## 🎨 Dashboard Design
